@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'Slim Joe';
+  src: url('fonts/slim_joe-webfont.eot');
+  src: url('fonts/slim_joe-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/slim_joe-webfont.woff2') format('woff2'),
+       url('fonts/slim_joe-webfont.woff') format('woff'),
+       url('fonts/slim_joe-webfont.ttf') format('truetype'),
+       url('fonts/slim_joe-webfont.svg#slim_joeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url('fonts/big_john-webfont.eot');
+  src: url('fonts/big_john-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/big_john-webfont.woff2') format('woff2'),
+       url('fonts/big_john-webfont.woff') format('woff'),
+       url('fonts/big_john-webfont.ttf') format('truetype'),
+       url('fonts/big_john-webfont.svg#big_johnregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+.Logo{
+ margin-left: 70px;
+ cursor: pointer;
+ margin-top:-70px;
+}
+
+.Vyd li
+{
+        
+        font-size: 20px;
+        display: inline-block ;
+        border: none;
+        padding-right:30px;
+        margin-top: 0;
+        margin-bottom: 0;
+        box-sizing: border-box;
+		font-family: Slim Joe;
+		color:white;
+
+    }
+
+.Vyd__Spysok
+{
+	margin-left:100px;
+
+}
+
+.Vyd
+{
+        list-style: none;
+        padding: 10px;
+        cursor: pointer;
+          margin-left:450px;
+		  margin-top:45px;
+
+   }    
+
+body
+{
+	background:url(img//Background.jpg);
+	background-size: 100%
+}   
+
+
+.Huarache1{
+ background: white;
+    margin-top: 115px;
+    margin-left: 95px;
+    height: 430px;
+    width: 1100px;
+    opacity: 0.3;
+    position: absolute;
+
+}
+.Huarache2{
+background: white;
+    margin-top: 90px;
+    margin-left: 105px;
+    height: 475px;
+    width: 1070px;
+    opacity: 0.4;
+    position: absolute;
+}
+
+
+.Huarache {
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 75px;
+margin-bottom: 10%;
+background: white;
+width: 1020px;
+height: 500px;
+position: absolute;
+}
+
+.Huarache__Minor_Image {
+	margin-top: 430px;
+	margin-left:250px;
+	position: absolute;
+}
+
+.Huarache__Main_Image{
+	float:left;
+}
+
+.Huarache__Descript{
+	list-style: none;
+    margin-left: 700px;
+    padding-top:30px;
+}
+
+.First{
+	background :orange;
+	margin-right: 234px;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.Second{
+	font-size: 30px;
+	color:black;
+	margin-bottom: 15px;
+}
+.Run {
+	font-size: 30px;
+	color:blue;
+	margin-bottom: 15px;
+}
+
+.Third{
+	font-size: 30px;
+	color:black;
+	margin-bottom: 15px;
+}
+
+.Fourth{
+font-size: 20px;
+margin-bottom: 15px;	
+}
+
+.Fifth{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+.Sixth{
+	font-size:15px;
+}
+
+
+.Huarache__Size{
+	list-style: none;
+    margin-left: 700px;
+    padding-bottom: 20px
+}
+
+.Huarache__Size li{
+	display: inline;
+	margin-left: 20px;
+	font-size: 20px;
+		cursor:pointer;
+
+
+}
+
+
+
+.Huarache__ADD{
+	margin-left: 750px;
+   background: purple;
+   color: white;
+   width: 115px;
+   padding:8px;
+   margin-bottom: 30px;
+
+}
+
+.Huarache__WISHLIST{
+	margin-left: 750px;
+    border: solid 2px black;
+    padding: 8px;
+     width: 113px;
+     text-align: center;
+
+}
+
+.Huarache__Size li:active
+{
+	border:solid 2px;
+	padding:3px 5px 3px 5px;
+
+}
+
+
+
+
+
