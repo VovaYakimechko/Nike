@@ -63,7 +63,7 @@
 
 body
 {
-	background:url(img//Background.jpg);
+	background:url(img//Background.png);
 	background-size: 100%
 }   
 
@@ -81,7 +81,7 @@ body
 .Huarache2{
 background: white;
     margin-top: 90px;
-    margin-left: 105px;
+    margin-left: 110px;
     height: 475px;
     width: 1070px;
     opacity: 0.4;
@@ -104,6 +104,7 @@ position: absolute;
 	margin-top: 430px;
 	margin-left:250px;
 	position: absolute;
+  cursor: pointer;
 }
 
 .Huarache__Main_Image{
@@ -158,7 +159,8 @@ margin-bottom: 15px;
 .Huarache__Size{
 	list-style: none;
     margin-left: 700px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+
 }
 
 .Huarache__Size li{
@@ -166,7 +168,8 @@ margin-bottom: 15px;
 	margin-left: 20px;
 	font-size: 20px;
 		cursor:pointer;
-
+        border: solid white 2px;
+    padding:3px 5px 3px 5px;
 
 }
 
@@ -191,14 +194,20 @@ margin-bottom: 15px;
 
 }
 
-.Huarache__Size li:active
+.Huarache__Size li:hover
 {
 	border:solid 2px;
-	padding:3px 5px 3px 5px;
+
 
 }
 
-
+.Hrest{
+  opacity: 0.8;
+  color:#696969;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 1000px;
+}
 
 
 
